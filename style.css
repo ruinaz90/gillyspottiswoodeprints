@@ -4,3 +4,17 @@
 html {
     font-size: 62.5%;
 }
+
+.menu_overlay {
+    font-size: 2rem;
+    height: 100vh;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.close_btn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 4rem;
+    font-weight: bold;
+}
