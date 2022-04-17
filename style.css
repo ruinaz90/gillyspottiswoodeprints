@@ -1,20 +1,60 @@
-* {
-    box-sizing: border-box;
-}
-html {
-    font-size: 62.5%;
+/*** COLOR INFO 
+#18355d
+24, 53, 93 ***/
+
+section, footer {
+    text-align: center;
+    padding: 1rem;
 }
 
-.menu_overlay {
-    font-size: 2rem;
-    height: 100vh;
-    z-index: 1;
-    background-color: rgba(0, 0, 0, 0.9);
+/* HEADER */
+header {
+    background: url('images/main.jpg') no-repeat;
+    padding: 8rem 0;
+    background-size: cover;
+    background-position: top;
+    text-align: center;
 }
-.close_btn {
-    position: absolute;
-    top: 20px;
-    right: 45px;
-    font-size: 4rem;
-    font-weight: bold;
+main {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 2rem;
+}
+main img {
+    width: 40%;
+}
+main p {
+    margin-top: 1rem;
+    text-transform: uppercase;
+}
+
+/* SECTIONS */
+#one {
+    background: #18355d;
+    color: #fff;
+}
+#three {
+    background: #fafafa;
+}
+
+/* FOOTER */
+footer {
+    background: #1d2726;
+    color: #888;
+}
+footer a {
+    color: #888;
+    text-decoration: none;
+}
+footer ul {
+    margin: 0 0 1rem 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 2rem;
+}
+footer p {
+    margin: 0;
+    padding: 0;
 }

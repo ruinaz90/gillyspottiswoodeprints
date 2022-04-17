@@ -2,23 +2,76 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width; initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Gilly Spottiswoode Prints</title>
-        <link rel="stylesheet" href="reset.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <header>
-            <nav class="menu_overlay">
-                <a href="#" class="close_btn">&times;</a>
-                <ul class="menu">
-                    <li><a href="#">The Artist</a></li>
-                    <li><a href="#">Shop</a></li>
-                    <li><a href="#">News</a></li>
-                    <li><a href="#">Links</a></li>
-                </ul>
+            <nav class="navbar navbar-light fixed-top">
+                <div class="container-fluid">
+                    <button class="navbar-toggler bg-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item"><a class="nav-link" aria-current="page" href="#">The Artist</a></li>
+                                <li class="nav-item"><a class="nav-link" aria-current="page" href="#">Shop</a></li>
+                                <li class="nav-item"><a class="nav-link" aria-current="page" href="#">News</a></li>
+                                <li class="nav-item"><a class="nav-link" aria-current="page" href="#">Links</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </nav>
+
+            <main>
+                <img src="images/logo.jpg">
+                <p>Gillian Spottiswoode<br>
+                BA (Hons) Fashion & Textiles<br>
+                DeMontfort University</p>
+            </main>
         </header>
+
+        <section id="one">
+            <h2>The Artist</h2>
+            <p>I am based in the beautiful Tamar Valley, where I draw inspiration from the nature that surrounds me. Within my artwork, you will find hares, bees, flowers, rolling hills and usually a cat or 5. I am also love and am very heavily influenced by pattern and colour.</p>
+
+            <p>You will find me ensconced in my studio, surrounded by inks, lino, cutting tools, a huge mug of tea and usually a couple of fat, lazy cats planting themselves where they really shouldn’t be planted!</p>
+                
+                </p>
+        </section>
+
+        <section id="two">
+            <h2>Shop</h2>
+        </section>
+
+        <section id="three">
+            <h2>Links</h2>
+            <p>Want to get in touch?</p>
+            <p>For enquiries, updates and photos of my cats sitting where they shouldn’t be sitting, feel free to give these a follow!</p>
+        </section>
+
+        <footer>
+            <ul>
+                <li><a href="https://www.facebook.com/gillyspotprints/"><span class="iconify" data-icon="carbon:logo-facebook"></span></a>
+                </li>
+                <li><a href="https://www.instagram.com/gillyspottiswoodeprints/"><span class="iconify" data-icon="carbon:logo-instagram"></span></a>
+                </li>
+                <li><a href="https://www.etsy.com/shop/GillySpottiswoode"><span class="iconify" data-icon="la:etsy"></span></a>
+                </li>
+            </ul>
+            <p>&copy; Gilly Spottiswoode Prints</p>
+        </footer>
+
         <script type="text/javascript" src="main.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
     </body>
 </html>
