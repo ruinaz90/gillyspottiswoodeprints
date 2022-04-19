@@ -8,21 +8,21 @@ section, footer {
 }
 
 /* HEADER */
-header {
+main {
     background: url('images/main.jpg') no-repeat;
     padding: 8rem 0;
     background-size: cover;
     background-position: top;
     text-align: center;
 }
-main {
+.hero {
     background: rgba(255, 255, 255, 0.9);
     padding: 2rem;
 }
-main img {
+.hero img {
     width: 70%;
 }
-main p {
+.hero p {
     margin-top: 1rem;
     text-transform: uppercase;
 }
