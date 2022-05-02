@@ -1767,7 +1767,7 @@ input, select, textarea {
 
 /* Section/Article */
 
-	section.special, article.special {
+	header.special, section.special, article.special {
 		text-align: center;
 	}
 
@@ -2966,7 +2966,7 @@ input, select, textarea {
 
 	#footer {
 		background: #18355d;
-		color: #888;
+		color: #fff;
 		padding: 4em 0;
 		text-align: center;
 	}
@@ -2988,7 +2988,7 @@ input, select, textarea {
 					-webkit-transition: color 0.2s ease-in-out;
 					-ms-transition: color 0.2s ease-in-out;
 					transition: color 0.2s ease-in-out;
-					color: #666;
+					color: #fff;
 				}
 
 					#footer .icons li a:hover {
