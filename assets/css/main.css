@@ -223,7 +223,8 @@ input, select, textarea {
 	.logo {
 		width: 30%;
 	}
-/* Row */
+	.ctrtxt {text-align: center;}
+	/* Row */
 
 	.row {
 		display: flex;
